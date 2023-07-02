@@ -1,0 +1,152 @@
+@media screen and (max-width: 1190px) {
+  .container {
+    width: 90%;
+  }
+  .team img {
+    margin-top: 94px;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navbar_item_mobile {
+    display: flex;
+  }
+  .navbar_item {
+    display: none;
+  }
+  .bar {
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgba(18, 24, 255, 1);
+  }
+  .about_title span {
+    font-size: 19px;
+  }
+  .about_title h1 {
+    font-size: 100px;
+  }
+  .about_title p {
+    font-size: 15px;
+  }
+  .team h1 {
+    font-size: 52px;
+  }
+  .price {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .price_left {
+    max-width: 566px;
+    text-align: center;
+    margin-left: -21px;
+  }
+  .footer_left p {
+    display: none;
+  }
+  .footer {
+    display: block;
+  }
+  .footer_right {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .footer_left img {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .body {
+    margin-top: 114px;
+  }
+  .about_title span {
+    font-size: 16px;
+  }
+  .about_title h1 {
+    font-size: 32px;
+    margin-top: 24px;
+  }
+  .about_title p {
+    font-size: 14px;
+    margin-top: 34px;
+  }
+  .about_title p span {
+    display: none;
+  }
+  .team {
+    margin-top: 54px;
+  }
+  .team h1 {
+    font-size: 32px;
+  }
+  .team img {
+    margin-top: 24px;
+    width: 100%;
+  }
+  .price {
+    margin-top: 147px;
+    position: relative;
+  }
+  .price_img1 {
+    display: flex;
+    width: 52px;
+    position: absolute;
+    top: -61px;
+    left: 11px;
+  }
+  .price_img2 {
+    display: flex;
+    width: 85px;
+    position: absolute;
+    top: 300px;
+    right: -31px;
+    z-index: -1;
+  }
+  .price_left {
+    max-width: 566px;
+    text-align: start;
+  }
+  .price_left h1 {
+    font-size: 24px;
+    font-weight: 800;
+    width: 289px;
+  }
+  .price_left p {
+    margin-top: 12px;
+    font-size: 14px;
+  }
+  .price_input-container {
+    position: relative;
+    width: 350px;
+    margin-top: 30px;
+  }
+  .price_right button {
+    width: 350px;
+  }
+  .footer_left img {
+    margin-top: 30px;
+    width: 165px;
+    margin-left: 16px;
+  }
+  .footer_right1 ul {
+    margin-top: -20px;
+    font-size: 16px;
+  }
+  .footer_right1 ul li {
+    padding-top: 24px;
+  }
+  .footer_right2 ul {
+    font-size: 12px;
+    font-weight: 500;
+    list-style-type: none;
+    line-height: 10px;
+    margin-top: -25px;
+  }
+  .footer_right2 ul li {
+    padding-top: 18px;
+    font-family: "Montserrat", sans-serif !important;
+  }
+  .footer_right2 ul {
+    margin-top: -4px;
+  }
+}

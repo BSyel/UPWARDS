@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UPWARDS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Raleway:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/slick.css" />
+    <link rel="stylesheet" href="./CSS/slick-theme.css" />
+    <link rel="stylesheet" href="./CSS/about.css" />
+    <link rel="stylesheet" href="./CSS/adaptive.css" />
+  </head>
+  <body>
+    <div class="header" id="myNavbar">
+      <div class="navbar">
+        <div class="container navbar_item">
+          <a href="../../index.html"><img src="./image/logo.png" alt="" /></a>
+          <ul>
+            <li><a href="../service/service.html">Услуги</a></li>
+            <li><a href="../about/about.html">О нас</a></li>
+            <li><a href="../projects/projects.html">Наши работы</a></li>
+            <li><a href="../blog/blog.html">Блог</a></li>
+            <li><a href="../article/article.html">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div class="navbar_item_mobile" id="nav_item_mobile">
+          <div class="nav_logo">
+            <a href="../../index.html"><img src="./image/logo.png" alt="" /></a>
+          </div>
+          <div class="burger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <nav class="menu" id="menu">
+            <div class="nav_menu_logo">
+              <a href="../../index.html"
+                ><img src="./image/logo.png" alt=""
+              /></a>
+              <div class="burger-menu-close" onclick="toggleMenu()">
+                <div class="bar-close"></div>
+                <div class="bar-close"></div>
+              </div>
+            </div>
+            <ul>
+              <li><a href="../service/service.html">Услуги</a></li>
+              <p></p>
+              <li><a href="../about/about.html">О нас</a></li>
+              <li><a href="../projects/projects.html">Наши работы</a></li>
+              <li><a href="../blog/blog.html">Блог</a></li>
+              <li><a href="../article/article.html">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="container about">
+        <div class="about_title">
+          <span>Главная / О нас</span>
+          <h1>О нас</h1>
+          <p>
+            Мы digital-продакшн полного цикла, с собственной продуктовой
+            аналитикой, дизайном и веб разработкой. Мы создаем удобные сервисы,
+            которые помогают развивать бизнес, не теряя пользу для конечного
+            пользователя. Наш козырь — оперативная работа в сжатые сроки без
+            потери качества.<br /><span>
+              Мы уделяем большое внимание каждому проекту и стараемся найти
+              наиболее эффективное решение для наших клиентов. Мы уверены, что
+              наша компания является надежным партнером для всех, кто ищет
+              качественные и современные IT-решения. Мы гордимся нашими успехами
+              и готовы предоставить нашим клиентам только самые
+              высококачественные и инновационные решения.</span
+            >
+          </p>
+        </div>
+        <div class="team">
+          <h1>Наша команда</h1>
+          <img src="./image/Frame 81.png" alt="" />
+        </div>
+        <div class="container price">
+          <img class="price_img1" src="./image/Frame 1000001149.png" alt="" />
+          <img class="price_img2" src="./image/Frame 1000001183.png" alt="" />
+          <div class="price_left">
+            <h1>Доверьте свой проект нам</h1>
+            <p>Оставьте заявку и мы с вами свяжемся</p>
+          </div>
+          <div class="price_right">
+            <div class="price_input-container">
+              <input type="text" class="custom-input" placeholder="Ваше имя" />
+              <div class="price_input-border"></div>
+            </div>
+
+            <div class="price_input-container">
+              <input
+                type="text"
+                class="custom-input"
+                placeholder="Номер телефона"
+              />
+              <div class="price_input-border"></div>
+            </div>
+            <button>Отправить</button>
+            <img class="bg_img4" src="./images/bg4.png" alt="" />
+            <img class="bg_img6" src="./images/bg6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer_left">
+        <img src="./image/upwards_logo.png" alt="" />
+        <p>
+          Мы готовы предоставить самые современные решения и инновационные<br />
+          подходы для всех наших клиентов.Мы специализируемся на разработке<br />
+          сайтов, систем автоматизации бизнес процессов и мобильных
+          приложений.<br />
+          В нашей команде работают профессионалы в области дизайна, разработки и
+          тестирования.
+        </p>
+      </div>
+      <div class="footer_right">
+        <div class="footer_right1">
+          <ul>
+            <li>Услуги</li>
+            <li>О нас</li>
+            <li>Наши работы</li>
+            <li>Блог</li>
+            <li>Контакты</li>
+          </ul>
+        </div>
+        <div class="footer_right2">
+          <ul>
+            <li>Адрес</li>
+            <li>г. Бишкек</li>
+            <li>Токтаналиева 103,5этаж</li>
+            <li>Номер телефона</li>
+            <li>+996 999 099 001</li>
+            <li>Мы в соцсетях</li>
+          </ul>
+          <ul class="footer_social">
+            <li><img src="./image/socials (3).png" alt="" /></li>
+            <li><img src="./image/socials (4).png" alt="" /></li>
+            <li><img src="./image/socials (5).png" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./JS/jquery-3.6.3.min.js"></script>
+    <script src="./JS/slick.min.js"></script>
+    <script src="./JS/about.js"></script>
+  </body>
+</html>

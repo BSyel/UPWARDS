@@ -1,0 +1,129 @@
+@media screen and (max-width: 1190px) {
+  .container {
+    max-width: 90%;
+  }
+  .project_card {
+    justify-content: center;
+  }
+  .bg3 {
+    left: 4px;
+  }
+  .bg4 {
+    left: 948px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navbar_item {
+    display: none;
+  }
+  .navbar_item_mobile {
+    display: flex;
+  }
+  .bg1 {
+    width: 381px;
+  }
+  .bg2 {
+    width: 535px;
+  }
+  .price {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .bg4 {
+    left: 439px;
+    top: 475px;
+  }
+  .footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer_left p {
+    display: none;
+  }
+
+  .footer_right {
+    width: 50%;
+    display: flex;
+    margin-top: -40px;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bg2 {
+    overflow-x: hidden;
+    width: 453px;
+    top: -178px;
+    right: -177px;
+  }
+  .bg1 {
+    width: 415px;
+    overflow-x: hidden;
+    top: -176px;
+    left: -143px;
+  }
+  .project_title {
+    margin-top: -20px;
+  }
+  .project_title span {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(140, 140, 140, 1);
+  }
+  .project_title h1 {
+    margin-top: 94px;
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .card {
+    width: 350px;
+    height: 295px;
+    padding: 20px 17px;
+  }
+  .active-card img {
+    width: 317px;
+  }
+  .card button {
+    margin-top: 14px;
+    width: 87px;
+    height: 23px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .card p {
+    margin-top: 14px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 18px;
+  }
+  .price {
+    margin-top: 157px;
+  }
+  .price_left h1 {
+    font-size: 24px;
+    font-weight: 800;
+  }
+  .bg3 {
+    left: 4px;
+    width: 52px;
+    top: -75px;
+  }
+  .bg4 {
+    display: none;
+  }
+  .bg5 {
+    display: none;
+  }
+  .price_left p {
+    font-size: 14px;
+  }
+  .footer {
+    justify-content: space-between;
+  }
+  .footer_left img {
+    margin-left: 26px;
+    width: 165px;
+  }
+  .footer_right {
+    width: 120%;
+  }
+}

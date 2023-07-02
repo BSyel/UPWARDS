@@ -1,0 +1,17 @@
+.slick-initialized .slick-slide {
+  width: 300px;
+  margin-left: 20px;
+  height: 160px;
+}
+.slick-track {
+  height: 200px;
+}
+
+.banner_slider .slick-next::before {
+  font-size: 30px;
+  color: rgba(18, 24, 255, 1);
+}
+.banner_slider .slick-next {
+  right: 8px;
+  top: -96px;
+}

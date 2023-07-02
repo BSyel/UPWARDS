@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UPWARDS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Raleway:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="stylesheet" href="./CSS/slick-theme.css" />
+    <link rel="stylesheet" href="./CSS/slick.css" />
+    <link rel="stylesheet" href="./CSS/slide.css" />
+    <link rel="stylesheet" href="./CSS/adaptive.css" />
+  </head>
+  <body>
+    <div class="header" id="myNavbar">
+      <div class="navbar">
+        <div class="container navbar_item">
+          <img src="./images/logo.png" alt="" />
+          <ul>
+            <li><a href="./pages/service/service.html">Услуги</a></li>
+            <li><a href="./pages/about/about.html">О нас</a></li>
+            <li><a href="./pages/projects/projects.html">Наши работы</a></li>
+            <li><a href="./pages/blog/blog.html">Блог</a></li>
+            <li><a href="./pages/article/article.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="navbar_item_mobile" id="nav_item_mobile">
+          <div class="nav_logo">
+            <img src="./images/logo.png" alt="" />
+          </div>
+          <div class="burger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <nav class="menu" id="menu">
+            <div class="nav_menu_logo">
+              <a href="./index.html"><img src="./images/logo.png" alt="" /></a>
+              <div class="burger-menu-close" onclick="toggleMenu()">
+                <div class="bar-close"></div>
+                <div class="bar-close"></div>
+              </div>
+            </div>
+            <ul>
+              <li><a href="./pages/service/service.html">Услуги</a></li>
+              <p></p>
+              <li><a href="./pages/about/about.html">О нас</a></li>
+              <li><a href="./pages/projects/projects.html">Наши работы</a></li>
+              <li><a href="./pages/blog/blog.html">Блог</a></li>
+              <li><a href="./pages/article/article.html">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="body">
+      <img class="bg_img1" src="./images/bg1.png" alt="" />
+      <img class="bg_img2" src="./images/bg2.png" alt="" />
+      <img class="bg_img3" src="./images/bg3.png" alt="" />
+      <img class="bg_img5" src="./images/bg5.png" alt="" />
+      <div class="container main_title">
+        <h1>Разработка веб-сайтов и приложений</h1>
+        <button>Связаться</button>
+      </div>
+      <div class="service">
+        <div class="container service_title">Наши услуги</div>
+        <div class="service_categories">
+          <div class="service_category" id="element1">
+            <div class="container service_category_text">
+              <h3>Разработка</h3>
+              <div class="ser_items">
+                <ul>
+                  <li>Аутстаф</li>
+                  <li>Сайты любой сложности</li>
+                  <li>Веб-сервисы</li>
+                  <li>Мобильные приложения</li>
+                  <li>Разработка личного кабинета</li>
+                  <li>Техническое задание и прототипы</li>
+                  <li>Техническая поддержка</li>
+                </ul>
+                <img src="./images/logos1.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="service_category" id="element2">
+            <div class="container service_category_text">
+              <h3>Дизайн</h3>
+              <div class="ser_items">
+                <ul>
+                  <li>UI/UX-дизайн</li>
+                  <li>Дизайн мобильных приложений</li>
+                  <li>Редизайн сайта и модернизация</li>
+                </ul>
+                <img src="./images/logos2.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="service_category" id="element3">
+            <div class="container service_category_text">
+              <h3>Для отраслей</h3>
+              <div class="ser_items">
+                <ul>
+                  <li>Сайты для медучреждений</li>
+                  <li>Для IT-компаний</li>
+                  <li>Для интернет-магазинов</li>
+                  <li>Для стартапов</li>
+                  <li>Для телеком-провайдеров</li>
+                  <li>Для строительных компаний</li>
+                  <li>Для отелей</li>
+                </ul>
+                <img class="ser_items_img" src="./images/logos3.png" alt="" />
+                <div class="ser_items_mobile">
+                  <img src="./images/Frame 1000001175.png" alt="" />
+                  <img
+                    class="ser_items_mobile2"
+                    src="./images/Frame 64.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="ser_circle"><p>Рассчитать стоимость</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <section class="home_section1">
+        <h1>How Gemoo Works</h1>
+        <p>
+          To accelerate your communication and workflow productivity - no more
+          lengthy emails or messy messages.
+        </p>
+        <div class="accordion-box">
+          <ul class="accordion">
+            <li class="green" style="transform: translateY(0px)"></li>
+            <li class="orange" style="transform: translateY(0px)"></li>
+            <li class="blue"></li>
+          </ul>
+        </div>
+      </section> -->
+      <div class="container about">
+        <div class="about_content">
+          <h2>О нас</h2>
+          <p class="content_text">
+            Наша IT компания была основана в 2018 году с целью создания
+            качественных сайтов, систем автоматизации бизнес процессов и <br />
+            мобильных приложений. Мы являемся командой профессионалов, которые
+            стараются удовлетворить все потребности наших клиентов.<br />
+            Мы готовы предоставить самые современные решения и инновационные
+            подходы для всех наших клиентов.<br /><span
+              class="content_text_span"
+            >
+              Мы специализируемся на разработке сайтов, систем автоматизации
+              бизнес процессов и мобильных приложений. В нашей команде<br />
+              работают профессионалы в области дизайна, разработки и
+              тестирования.<br />
+              Мы уделяем большое внимание каждому проекту и стараемся найти
+              наиболее эффективное решение для наших клиентов. Мы уверены,<br />
+              что наша компания является надежным партнером для всех, кто ищет
+              качественные и современные IT-решения.</span
+            >
+          </p>
+          <div class="about_item">
+            <div class="about_item1">
+              <span>10</span>
+              <p>Текст</p>
+            </div>
+            <div class="about_item2">
+              <span>10</span>
+              <p>Текст</p>
+            </div>
+            <div class="about_item3">
+              <span>10</span>
+              <p>Текст</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container project">
+        <h1>Наши пректы</h1>
+        <div class="project_content">
+          <div class="project_left">
+            <div class="project_left_img1">
+              <img src="./images/Корпоративный сайт (1).png" alt="" />
+            </div>
+            <div class="project_left_img2">
+              <img src="./images/Корпоративный сайт.png" alt="" />
+            </div>
+            <div class="project_left_text">
+              <h3>Metaltorg</h3>
+              <p>
+                Корпоративный сайт для самой первой крупнейшей сети
+                пятизвездочных отелей в Кыргызстане — JANNAT HOTELS AND RESORTS.
+                Первый национальный бренд, который продвигает идеи истинного
+                кыргызского гостеприимства на профессиональном уровне.
+              </p>
+            </div>
+          </div>
+          <div class="project_right">
+            <div class="project_right1">
+              <h4>Global</h4>
+              <p>
+                Система учета и отслеживания посылок для компании -
+                осуществляющей доставку любого товара с Турции, Китая, Америки,
+                Дубая и Кореи в страны СНГ.
+              </p>
+            </div>
+            <div class="project_right1">
+              <h4>Metaltorg</h4>
+              <p>
+                Сайт для компании - которая входит в четверку крупнейших
+                поставщиков широчайшего ассортимента металлопроката во всех
+                регионах Кыргызстана.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="prj_circle">
+          <p>Посмотреть все проекты</p>
+        </div>
+      </div>
+      <div class="container price">
+        <div class="price_left">
+          <h1>Рассчитайте стоимость своего проекта</h1>
+          <p>Оставьте заявку и мы с вами свяжемся</p>
+        </div>
+        <div class="price_right">
+          <div class="price_input-container">
+            <input type="text" class="custom-input" placeholder="Ваше имя" />
+            <div class="price_input-border"></div>
+          </div>
+
+          <div class="price_input-container">
+            <input
+              type="text"
+              class="custom-input"
+              placeholder="Номер телефона"
+            />
+            <div class="price_input-border"></div>
+          </div>
+          <button>Отправить</button>
+          <img class="bg_img4" src="./images/bg4.png" alt="" />
+          <img class="bg_img6" src="./images/bg6.png" alt="" />
+        </div>
+      </div>
+      <div class="container client_slider">
+        <div class="client_title">
+          Наши клиенты <img src="./images/Vector (9).png" alt="" />
+        </div>
+        <div class="banner_slider">
+          <div class="banner-bg">
+            <img src="./images/Mask group.png" alt="" />
+          </div>
+          <div class="banner-bg">
+            <img src="./images/Mask group (1).png" alt="" />
+          </div>
+          <div class="banner-bg">
+            <img src="./images/Mask group (2).png" alt="" />
+          </div>
+          <div class="banner-bg">
+            <img src="./images/Mask group (2).png" alt="" />
+          </div>
+          <div class="banner-bg">
+            <img src="./images/Mask group (2).png" alt="" />
+          </div>
+          <div class="banner-bg">
+            <img src="./images/Mask group (2).png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="container blog">
+        <h2>Блог</h2>
+        <p class="blog_p">Все статьи <img src="./images/arrow.png" alt="" /></p>
+        <div class="blog_card">
+          <div class="blog_card1">
+            <img src="./images/blog.png" alt="" />
+            <h3>Рекомендации Билл Гейтса: ТОП-5 книг к прочтению</h3>
+            <p>
+              Маркетплейс c большим функционалом для купли-продажи недвижимости
+              без посредников.
+            </p>
+          </div>
+          <div class="blog_card1">
+            <img src="./images/blog.png" alt="" />
+            <h3>Рекомендации Билл Гейтса: ТОП-5 книг к прочтению</h3>
+            <p>
+              Маркетплейс c большим функционалом для купли-продажи недвижимости
+              без посредников.
+            </p>
+          </div>
+          <div class="blog_card1">
+            <img src="./images/blog.png" alt="" />
+            <h3>Рекомендации Билл Гейтса: ТОП-5 книг к прочтению</h3>
+            <p>
+              Маркетплейс c большим функционалом для купли-продажи недвижимости
+              без посредников.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer_left">
+        <img src="./images/upwards_logo.png" alt="" />
+        <p>
+          Мы готовы предоставить самые современные решения и инновационные<br />
+          подходы для всех наших клиентов.Мы специализируемся на разработке<br />
+          сайтов, систем автоматизации бизнес процессов и мобильных
+          приложений.<br />
+          В нашей команде работают профессионалы в области дизайна, разработки и
+          тестирования.
+        </p>
+      </div>
+      <div class="footer_right">
+        <div class="footer_right1">
+          <ul>
+            <li>Услуги</li>
+            <li>О нас</li>
+            <li>Наши работы</li>
+            <li>Блог</li>
+            <li>Контакты</li>
+          </ul>
+        </div>
+        <div class="footer_right2">
+          <ul>
+            <li>Адрес</li>
+            <li>г. Бишкек</li>
+            <li>Токтаналиева 103,5этаж</li>
+            <li>Номер телефона</li>
+            <li>+996 999 099 001</li>
+            <li>Мы в соцсетях</li>
+          </ul>
+          <ul class="footer_social">
+            <li><img src="./images/socials (3).png" alt="" /></li>
+            <li><img src="./images/socials (4).png" alt="" /></li>
+            <li><img src="./images/socials (5).png" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="./JS/jquery-3.6.3.min.js"></script>
+    <script src="./JS/slick.min.js"></script>
+    <script src="./JS/main.js"></script>
+  </body>
+</html>
